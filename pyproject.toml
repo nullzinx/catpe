@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "catpe"
+version = "1.0.0"
+description = "A simple and lightweight PE analyzer"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "GPL-3.0-or-later"
+[project.scripts]
+catpe = "catpe.core:cli"
+
+
