@@ -5,7 +5,7 @@ from pathlib import Path
 
 def building_args():
     parser = argparse.ArgumentParser(description="PE analizer")
-    parser.add_argument("--target","-t",required=True,type=str,description="select a file for analiyer")
+    parser.add_argument("--target","-t",required=True,type=str,help="select a file for analiyer")
     return parser.parse_args()
 
 class catpe:
